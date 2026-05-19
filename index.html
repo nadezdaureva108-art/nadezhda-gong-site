@@ -1,13 +1,111 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nadezhda Gong Meditation — гонг-медитации в Москве</title>
-    <meta name="description" content="Гонг-медитации в Москве, йога-студия Sattva. Индивидуальные практики, групповые сессии и выездные мероприятия с гонгом." />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nadezhda Gong Meditation — гонг-медитации в Москве</title>
+  <meta name="description" content="Гонг-медитации в Москве в йога-студии Sattva. Индивидуальные практики и выездные мероприятия с гонгом." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a href="#home" class="logo">Nadezhda Gong</a>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#services">Практики</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="button small" href="https://t.me/nadezhda_yu" target="_blank">Записаться</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="heroText">
+        <p class="label">Luxury wellness · Gong meditation</p>
+        <h1>Гонг-медитации в Москве для глубокого расслабления</h1>
+        <p class="lead">Звуковые практики в йога-студии Sattva, индивидуальные сессии и выездные мероприятия с гонгом по договорённости.</p>
+        <div class="actions">
+          <a class="button" href="https://t.me/nadezhda_yu" target="_blank">Записаться в Telegram</a>
+          <a class="button ghost" href="#services">Смотреть практики</a>
+        </div>
+      </div>
+
+      <div class="heroImage">
+        <img src="images/nadezhda-gong-main.jpg" alt="Надежда, гонг-медитация" />
+        <div class="caption">Пространство звука, вибрации и тишины</div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="photoCard">
+        <img src="images/nadezhda-portrait.jpg" alt="Надежда" />
+      </div>
+      <div class="textCard">
+        <p class="label">Обо мне</p>
+        <h2>Надежда</h2>
+        <p>Я провожу гонг-медитации в Москве в йога-студии Sattva, а также выезжаю с практиками на мероприятия и в другие локации по договорённости.</p>
+        <p>Для меня звук — это пространство глубокого расслабления, внутренней тишины и бережного восстановления. Во время практики вам не нужно ничего делать правильно — только дышать, чувствовать и позволять телу расслабляться.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <p class="label">Практики</p>
+      <h2>Форматы работы</h2>
+
+      <div class="cards">
+        <article>
+          <span>Групповой формат</span>
+          <h3>Гонг-медитация</h3>
+          <p>Мягкое звуковое путешествие для расслабления, восстановления и внутренней тишины.</p>
+        </article>
+        <article>
+          <span>По договорённости</span>
+          <h3>Индивидуальная практика</h3>
+          <p>Персональная сессия в бережном пространстве, где звук помогает телу выдохнуть и замедлиться.</p>
+        </article>
+        <article>
+          <span>Москва и другие локации</span>
+          <h3>Выезд на мероприятие</h3>
+          <p>Гонг-практика для йога-событий, ретритов, женских кругов, wellness-дней и камерных мероприятий.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="dark">
+      <div>
+        <p class="label light">Запись</p>
+        <h2>Записаться на практику</h2>
+        <p>Напишите мне в Telegram, Instagram или WhatsApp — я подскажу ближайшую дату и помогу выбрать подходящий формат.</p>
+      </div>
+      <div class="contacts">
+        <a href="https://t.me/nadezhda_yu" target="_blank">Telegram: @nadezhda_yu</a>
+        <a href="https://instagram.com/_yurievan_" target="_blank">Instagram: @_yurievan_</a>
+        <a href="https://wa.me/79916159151" target="_blank">WhatsApp: 89916159151</a>
+        <a href="mailto:nadezdaureva108@gmail.com">nadezdaureva108@gmail.com</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <p class="label">Атмосфера</p>
+      <h2>Галерея</h2>
+      <div class="gallery">
+        <img src="images/red-silk-gong.jpg" alt="Гонг-медитация" />
+        <img src="images/black-white-gong.jpg" alt="Гонг" />
+        <img src="images/gong-detail-1.jpg" alt="Звуковая практика" />
+        <img src="images/studio-practice.jpg" alt="Практика в студии" />
+        <img src="images/nadezhda-meditation.jpg" alt="Медитация" />
+        <img src="images/gong-instruments.jpg" alt="Инструменты" />
+      </div>
+    </section>
+
+    <footer id="contacts">
+      <div>
+        <h2>Nadezhda Gong Meditation</h2>
+        <p>Москва · йога-студия Sattva · выездные мероприятия</p>
+      </div>
+      <a class="button" href="https://t.me/nadezhda_yu" target="_blank">Связаться</a>
+    </footer>
+  </main>
+</body>
 </html>
